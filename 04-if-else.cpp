@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
 	setlocale(0, "rus");
 	int money = 0;
 	char answer;
@@ -38,8 +37,7 @@ int main()
 		cout << "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++!!!" << endl;
 		cout << "Ваш ответ: ";
 		cin >> answer;
-		if (answer == 'c' or answer == 'C')
-		{
+		if (answer == 'c' or answer == 'C') {
 			money = 2000;
 			cout << "Ответ верный." << endl;
 			cout << "##############################################################!!!" << endl;
